@@ -1,0 +1,24 @@
+{
+  "name": "healthy-tree",
+  "version": "1.0.0",
+  "description": "Find and reduce duplication in package dependencies",
+  "bin": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": ":"
+  },
+  "dependencies": {
+    "archy": "^1.0.0",
+    "npm-logical-tree": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2"
+  },
+  "keywords": [
+    "dedup",
+    "dependency"
+  ],
+  "repository": "vitalyq/healthy-tree",
+  "author": "Vitaly Kuznetsov",
+  "license": "MIT"
+}
