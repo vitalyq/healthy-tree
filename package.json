@@ -1,7 +1,7 @@
 {
   "name": "healthy-tree",
   "version": "1.0.0",
-  "description": "Find and reduce duplication in package dependencies",
+  "description": "Find out why a package has duplicate dependencies",
   "bin": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
@@ -17,7 +17,9 @@
   },
   "keywords": [
     "dedup",
-    "dependency"
+    "dependency",
+    "duplication",
+    "node_modules"
   ],
   "repository": "vitalyq/healthy-tree",
   "author": "Vitaly Kuznetsov",
